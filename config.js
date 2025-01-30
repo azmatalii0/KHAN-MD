@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "KHAN-MD~v6w0ASwZ#X-jU5oVlmf6GRu3t_k99jYRFgYhkTO96PDVK-FIZUF8",
+SESSION_ID: process.env.SESSION_ID || "KHAN-MD~6vhx1bgL#bZtIFsWw63mEf0gCBldzV8xyNgepldYwnn-PdiDexAM",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -31,9 +31,9 @@ OWNER_NUMBER: process.env.OWNER_NUMBER || "",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "íԵz ժօϲԵօɾ 🩵",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX*",
+DESCRIPTION: process.env.DESCRIPTION || "",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/149k8x.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *íԵz ժօϲԵօɾ 🩵*⚡",
 // add alive msg here 
@@ -61,7 +61,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "923146190772",
+DEV: process.env.DEV || "",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
